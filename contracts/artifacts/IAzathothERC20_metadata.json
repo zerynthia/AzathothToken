@@ -64,7 +64,7 @@
 					},
 					{
 						"internalType": "address",
-						"name": "spender",
+						"name": "_spender",
 						"type": "address"
 					}
 				],
@@ -72,7 +72,7 @@
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "remaining",
 						"type": "uint256"
 					}
 				],
@@ -83,17 +83,23 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "spender",
+						"name": "_spender",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "_value",
 						"type": "uint256"
 					}
 				],
 				"name": "approve",
-				"outputs": [],
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
@@ -101,7 +107,7 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "account",
+						"name": "_owner",
 						"type": "address"
 					}
 				],
@@ -109,7 +115,7 @@
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "balance",
 						"type": "uint256"
 					}
 				],
@@ -121,12 +127,12 @@
 				"name": "decimals",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint8",
 						"name": "",
-						"type": "uint256"
+						"type": "uint8"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -172,17 +178,23 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "to",
+						"name": "_to",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "_value",
 						"type": "uint256"
 					}
 				],
 				"name": "transfer",
-				"outputs": [],
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
@@ -190,22 +202,28 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "sender",
+						"name": "_from",
 						"type": "address"
 					},
 					{
 						"internalType": "address",
-						"name": "recipient",
+						"name": "_to",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "_value",
 						"type": "uint256"
 					}
 				],
 				"name": "transferFrom",
-				"outputs": [],
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -238,11 +256,11 @@
 	},
 	"sources": {
 		"contracts/IAzathothERC20.sol": {
-			"keccak256": "0xc9cc7f4f71779a1ceb019d81a7c0b426e118526699117d844465c3a9710e80b7",
+			"keccak256": "0x71cd0a637cf12dcfc9ee678822cab17592345b95e34fc4a3892d8e5bc24c3763",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5aaa37ba4a4d12b876be3635a576b179b88e12c345619ad9cc19c91ed6c9a772",
-				"dweb:/ipfs/QmXmHGhKKPshtDUxvRF5C9ye69tkjPLatZLQBq7wy3oDGi"
+				"bzz-raw://b3bcef924a78910d10ec1c1b51efab05c39e55344f6b0a15aad6697ade1770e1",
+				"dweb:/ipfs/QmZTHGoTvYdGXC7PGP2DCJJYyMNtDtf1XXtxFP5pMA97nD"
 			]
 		}
 	},
