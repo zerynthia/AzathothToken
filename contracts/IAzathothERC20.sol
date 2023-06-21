@@ -19,7 +19,10 @@ interface IAzathothERC20 {
     function approve(address _spender, uint256 _value) external returns (bool success);
     function allowance(address _owner, address _spender) external view returns (uint256 remaining);
 
+    function mint(uint _value, address _shop) external; // Additional
+    function burn(address _from, uint _value) external; // Additional
+
     //Events
-    event Transfer(address indexed from, address indexed to, uint amount);
-    event Approve(address indexed owner, address indexed to, uint amount);
+    event Transfer(address indexed _from, address indexed _to, uint _value);
+    event Approve(address indexed _owner, address indexed _to, uint _value);
 }

@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AzathothToken.sol": "AzathothTokenUtils"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AzathothToken.sol": {
+			"keccak256": "0x274ea831fe331e7c18e68066ad412f326e534b92c85deebab0f9825d8dcf2543",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://14d4ef7d39f4216e9bee60a00ef8f20c06be1c0a870bae5503a0c0971dc279f1",
+				"dweb:/ipfs/Qma6Jpd9Rhv3xbrQHww95V4ecCSHgo83Q6NvZLhAKMz8it"
+			]
+		},
+		"contracts/IAzathothERC20.sol": {
+			"keccak256": "0x71cd0a637cf12dcfc9ee678822cab17592345b95e34fc4a3892d8e5bc24c3763",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b3bcef924a78910d10ec1c1b51efab05c39e55344f6b0a15aad6697ade1770e1",
+				"dweb:/ipfs/QmZTHGoTvYdGXC7PGP2DCJJYyMNtDtf1XXtxFP5pMA97nD"
+			]
+		}
+	},
+	"version": 1
+}

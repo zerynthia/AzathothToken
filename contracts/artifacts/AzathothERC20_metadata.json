@@ -150,7 +150,7 @@
 						"type": "uint8"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -277,7 +277,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/IAzathothERC20.sol": "IAzathothERC20"
+			"contracts/AzathothToken.sol": "AzathothERC20"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -291,6 +291,14 @@
 		"remappings": []
 	},
 	"sources": {
+		"contracts/AzathothToken.sol": {
+			"keccak256": "0x8a7109a22734e0a7cbcc06ad6587e2d09c3ec0dcb07a4ff1f5d3fa8e2f8fc955",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://97c98eb994fbe35a976c66d0a68172f87fec014ae335cfe8bb06df5c5668b5d1",
+				"dweb:/ipfs/Qmd3X74gUJBfvzS4jQxr5Kq7zsXBDbgDizKYX4e5U5RKoq"
+			]
+		},
 		"contracts/IAzathothERC20.sol": {
 			"keccak256": "0x38242191f036443f45d8e1e66673cda1900eb2f5dc0a301225f7f118a129f97e",
 			"license": "MIT",
