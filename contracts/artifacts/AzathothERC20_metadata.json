@@ -277,7 +277,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/AzathothToken.sol": "AzathothERC20"
+			"contracts/AzathothERC20.sol": "AzathothERC20"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -291,7 +291,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/AzathothToken.sol": {
+		"contracts/AzathothERC20.sol": {
 			"keccak256": "0x8a7109a22734e0a7cbcc06ad6587e2d09c3ec0dcb07a4ff1f5d3fa8e2f8fc955",
 			"license": "MIT",
 			"urls": [
