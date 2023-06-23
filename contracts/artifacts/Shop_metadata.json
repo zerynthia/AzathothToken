@@ -62,6 +62,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amountToSell",
+						"type": "uint256"
+					}
+				],
+				"name": "sell",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "token",
 				"outputs": [
@@ -73,6 +86,23 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -103,11 +133,11 @@
 	},
 	"sources": {
 		"contracts/Shop.sol": {
-			"keccak256": "0x03b04a0d0dc3638e2547079c12035abdac7118947f192adb570d0ba549af9697",
+			"keccak256": "0xb53806b48cda1e98967e91e784a9d8d8853871d18fcc51dd5a6e42b9543fe57b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8dc82f50123da678a8572f986298a0b4ca9ace208e4ccbd773f518511a0abd33",
-				"dweb:/ipfs/QmWFk5iTErFmVJVP72vmMy3Be5ZHGePygM6xhhPXp6Tj5i"
+				"bzz-raw://3f83a9b544fe5645e53b6f89689f2c64526b0a475593fdcf0877ef097f0a2dd2",
+				"dweb:/ipfs/QmcBWa3fda3QE8L7TUjVrke1QT8o4zpCBn3qKuAAeadGZR"
 			]
 		},
 		"contracts/token/AzathothERC20.sol": {
